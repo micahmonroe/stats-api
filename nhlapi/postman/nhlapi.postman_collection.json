@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "5867d5c3-6f20-4605-b79c-0c0ae6829579",
+		"name": "nhlapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "teams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://statsapi.web.nhl.com/api/v1/teams",
+					"protocol": "https",
+					"host": [
+						"statsapi",
+						"web",
+						"nhl",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"teams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://statsapi.web.nhl.com/api/v1/teams/26",
+					"protocol": "https",
+					"host": [
+						"statsapi",
+						"web",
+						"nhl",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"teams",
+						"26"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "red wings roster",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://statsapi.web.nhl.com/api/v1/teams/17/roster",
+					"protocol": "https",
+					"host": [
+						"statsapi",
+						"web",
+						"nhl",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"teams",
+						"17",
+						"roster"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Vladislav Namestnikov",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://statsapi.web.nhl.com/api/v1/people/8476480",
+					"protocol": "https",
+					"host": [
+						"statsapi",
+						"web",
+						"nhl",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"people",
+						"8476480"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "namestnikov stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://statsapi.web.nhl.com/api/v1/people/8476480/stats?stats=statsSingleSeason&season=20182019",
+					"protocol": "https",
+					"host": [
+						"statsapi",
+						"web",
+						"nhl",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"people",
+						"8476480",
+						"stats"
+					],
+					"query": [
+						{
+							"key": "stats",
+							"value": "statsSingleSeason"
+						},
+						{
+							"key": "season",
+							"value": "20182019"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
